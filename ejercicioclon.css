@@ -14,7 +14,8 @@
 
 p {
     font-family: Muli ;
-    font-size: 1.125rem;
+    line-height: 160%;
+    font-size: .9375rem;
     
 }
 h1 {
@@ -22,7 +23,7 @@ h1 {
     font-size: 3.75rem;
     line-height: 130%;
     display: block;
-    font-weight: Extra-Bold;
+    font-weight: 800;
 }
 h2{
     
@@ -52,7 +53,7 @@ h4{
 }
 
 /* Flex */
-#menu , #contenidouno, #contenidodos, #contenidotres, #contenidocuatro {
+#menu , #contenidouno, #contenidodos, #contenidotres, #contenidocuatro, #contenidocinco {
     display: flex;
     justify-content: center;
 }
@@ -90,15 +91,16 @@ h4{
     width: 202px;
 }
 .contunotex{
-    width: 480px;
+    max-width: 600px;
     height: 700px;
     padding-top: 85px;
 }
 .contdostex{
     
-    max-width: 770px;
+    max-width: 660px;
     height: auto;
     padding-top: 85px;
+    margin-left: 90px;
 }
 
 .topconttres{
@@ -149,4 +151,39 @@ h4{
 }
 #contenidotres{
     background-color: #e4e4e4;
+}
+
+.buttonone{
+    padding: 15px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    background-color: #5ba475;  
+    color: #ffffff;
+    font-weight: 600;  
+    text-decoration:none;
+}
+.buttontwo{
+    padding: 15px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    background-color: #000000;  
+    color: #ffffff;
+    font-weight: 600;  
+    text-decoration:none;
+}
+
+#contenidocinco .ancho li{
+padding: 10px;
+margin: 10px;
+
+}
+
+.ancholist {
+    width: 1500px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+   
+    float: left;
+   /* border: #2f2f2f73 1px solid;*/
+    
 }
